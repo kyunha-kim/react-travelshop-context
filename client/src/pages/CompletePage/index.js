@@ -9,6 +9,7 @@ const CompletePage = ({ setStep }) => {
 
   useEffect(() => {
     orderCompleted(orderData);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [orderData]);
 
   const orderCompleted = async () => {
